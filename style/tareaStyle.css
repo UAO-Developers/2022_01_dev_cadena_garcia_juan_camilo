@@ -1,5 +1,52 @@
-.contenido{
-    display: flex;
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0cm;
+}
+.atrassign{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 7px;
+    bottom: 0;  
+    left: 0;
+    right: 0; 
+}
+.dir{
+    position: absolute;
+    top: 6px;
+}
+.caja{
+    margin: 4px;
+    position: absolute;
+    background: white;
+    width: 55px;
+    height: 16px;
+    top: 0;
+    bottom: 0;  
+    left: 4px;
+    right: 0;
+}
+
+.cabezera{ 
+    width: auto;
+    height: 25px;
+    background: orangered;
+    position: relative;
     text-align: center;
-    align-items: center;
+    font-size: 10px;
+    color: white;
+}
+
+.atras{
+    position:absolute;
+    background: orangered;
+    width: 75px;
+    height: 25px;
+}
+
+.menu{
+   
+    position: relative;
+    float:right;
 }
