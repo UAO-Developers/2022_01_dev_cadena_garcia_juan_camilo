@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{background-color:white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cabezera{
+    background-color: orangered;
+    height: 25px;
+}
+#contenido{
+width: 100%;
+}
+.basket{
+    background-color: white;
+    width: 24%;
+    height: 340px;
+    float: right; 
+    box-shadow: 0px 0px 1px 0px black;
+}
+.portada{
+    background-color: darkgray;
+    width: 75.9%;
+    height: 80px;
+    float:left;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+}
+.nombre{
+    background-color: white;
+    float: left;
+    width: 75.9%;
+    height: 45px;
+}
+.links{
+    background-color:lightgray;
+    width: 75.9%;
+    float: left;
+    height: 35px;
+
+}
+.precios{
+    background-color: white;
+    height: 340px;
+}
+#titcabezera{
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    color: white;
+    position: relative;
+}
+.atrassign{
+    display: block;
+    position: relative;
+    width: 2%;
+    height: 10px;
+    top: 7px;
+}
+.menusign{
+    display: block;
+    position: relative;
+    width: 2%;
+    height: 10px;
+    top: -3px;
+    right: 5px;
+    float: right;
+}
+.germany{
+    display: block;
+    position: relative;
+    width: 2%;
+    height: 10px;
+    float: right;
+    top: -3px;
+    right: 7px;
+}
+.dir{
+    text-decoration: underline ;
+    font-size: 8px;
+    bottom: 5px;
+    position: absolute;
+    top: 5px;
+    left: 42%;
+}
+.cajaatras{
+    position: absolute;
+    width: 50px;
+    height: 15px;
+    float: left;
+    background-color: white;
+    top: 5px;
+    left: 10px;
+}
+.tbasket{
+    text-align: center;
+    color: black;
+    box-shadow: 0px 0px .5px 0px gray;
+    font-size: 10px;
+    padding: 4px;
+
+}
+#ffbasket{
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    color: black;
+    position: relative;
+    }
+.comprapng{
+    display: block;
+    position: relative;
+    width: 15%;
+    height: 15px;
+    left: 44%;
+    top: 50px;
+}
+.tb1{
+    position: absolute;
+    top: 70px;
+    left: 25%;
+    font-size: 10px;
+}
+.tb2{
+    position: absolute;
+    top: 90px;
+    left: 3%;
+    font-size: 5px;
+    color: gray;
+}
+#fportada{width: 75.9%;}
+.ffportada{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+#cnom{
+    width: 75.9%;
+    text-align: left;
+    color: black;
+    position: relative;
+}
+.fres{
+    display: block;
+    position: relative;
+    width: 10%;
+    height: 40px;
+    bottom: 18px;
+    left: 45%;
+}
+.titulo{
+    position: absolute;
+    bottom: 24px;
+    font-size: 12px;
+    left: 4px;
+}
+.fclas{
+    display: block;
+    position: relative;
+    width: 10%;
+    height: 40px;
+    bottom: 35px;
+    left: 6px;
+}
+.calif{
+    position: absolute;
+    bottom: 16px;
+    font-size: 7px;
+    left: 48px;
+    color: orangered;
+}
+.descp{
+    position: absolute;
+    bottom: 3px;
+    font-size: 8px;
+    left: 4px;
+}
+
+.binf{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-color: white;
+    left: 330px;
+    bottom:20px;
+    box-shadow: 0px 0px .5px 0px black;
+}
+
+.bbinf{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+
+}
+.bcor{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-color: white;
+    left: 350px;
+    bottom: 20px;
+    box-shadow: 0px 0px .5px 0px black;
+}
+.bbcor{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+}
+#ilink{
+    width: 75.9%;
+    text-align: center;
+    position: relative;
+}
+.links{
+    font-size: 5px;
+    color: black;
+
+}
+.buscar{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 8px;
+    top: 1px;
+    left:8px;
+}
+.pop{
+    position: relative;
+    width: 35px;
+    height: 10px;
+    float: left;
+    margin: 8px;
+    border-radius: 24px;
+    border-color: orangered;
+    border-style: solid;
+    background-color: orangered;
+    padding: 2px;
+    color: white;
+}
+.star{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 8px;
+}
+.sou{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 8px;  
+}
+.thai{
+    position: relative;
+    width: 9px;
+    height: 10px;
+    float: left;
+    margin: 8px
+}
+.veg{
+    position: relative;
+    width: 15px;
+    height: 10px;
+    float: left;
+    margin: 8px
+}
+.sat{
+    position: relative;
+    width: 4px;
+    height: 10px;
+    float: left;
+    margin: 8px
+}
+.chic{
+    position: relative;
+    width: 8px;
+    height: 10px;
+    float: left;
+    margin: 8px
+}
+.cris{
+    position: relative;
+    width: 8px;
+    height: 10px;
+    float: left;
+    margin: 8px
+}
+.pork{
+    position: relative;
+    width: 5px;
+    height: 10px;
+    float: left;
+    margin: 8px
+}
+.beef{
+    position: relative;
+    width: 6px;
+    height: 10px;
+    float: left;
+    margin: 8px
+}
+.king{
+    position: relative;
+    width: 8px;
+    height: 10px;
+    float: left;
+    margin: 8px
+}
+.duck{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin: 8px
+}
+.go{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    float: right;
+    margin: 8px;
+    top: 1px;
+}
+#obj1{
+    position: relative;
+    width: 68%;
+}
+.item1{
+    box-shadow: 0px 0px .5px 0px black;
+    margin: 20px;
+}
+.ssum1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    float: right;
+    left: 323px;
+    background-color: white;
+    box-shadow: 0px 0px .5px 0px black;
+    
+}
+.sum1{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+.p1{
+    position: relative;
+    width: 132px;
+    font-size: 10px;
+    height: 10px;
+    float: left;
+    margin: 8px;
+}
+.p2{
+    position: relative;
+    font-size: 4px;
+    height: 20px;
+    margin: 8px;
+    top: 16px;
+}
+.p3{
+    position: relative;
+    font-size: 6px;
+    margin: 8px;
+    color: gray;
+}
+.p4{
+    position: relative;
+    font-size: 10px;
+    margin: 8px;
+    bottom: 5px;
+    color: orangered;
+}
+#obj2{
+    position: relative;
+    width: 68%;
+}
+.item2{
+    box-shadow: 0px 0px .5px 0px black;
+    margin: 20px;
+}
+.ssum2{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    float: right;
+    left: 323px;
+    background-color: white;
+    box-shadow: 0px 0px .5px 0px black;
+    
+}
+.sum2{
+    display: block;
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
+.p5{
+    position: relative;
+    width: 63px;
+    font-size: 10px;
+    height: 10px;
+    float: left;
+    margin: 8px;
+}
+.p6{
+    position: relative;
+    font-size: 4px;
+    height: 20px;
+    margin: 8px;
+    top: 16px;
+}
+.p7{
+    position: relative;
+    font-size: 6px;
+    margin: 8px;
+    color: gray;
+}
+.p8{
+    position: relative;
+    font-size: 10px;
+    margin: 8px;
+    bottom: 5px;
+    color: orangered;
+}
+#tit2{
+    position: relative;
+    width: 2%;
+}
+.ppd{
+    background-color: lightgray;
+    width: 66%;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px .5px 0px black;
+    margin: 20px;
+    font-size: 10px;
+}
