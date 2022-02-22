@@ -1,0 +1,8 @@
+#content, #profile{
+width: 80%;
+float: left;
+display: block;
+}
+.intro{
+    text-align: center;
+}
