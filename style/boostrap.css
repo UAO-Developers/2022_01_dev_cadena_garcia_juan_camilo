@@ -1,0 +1,12 @@
+article{
+    border-style: dashed;
+}
+.peligro{
+    background-color: red;
+}
+.miboton{
+    background-color: blue;
+}
+.miboton:hover{
+    background-color: green;
+}
